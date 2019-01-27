@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#A
+{
+		margin: 100;
+		width: 250px;
+  	height: 250px;
+  	background: #fff;
+  	transition: all 1s;
+  	transition-timing-function: ease-out;
+  	opacity:0.2;
+}
+
+#A:hover
+{
+	transform: scale(2.5);
+	opacity:1;
+	transform: rotate(1080deg);
+}

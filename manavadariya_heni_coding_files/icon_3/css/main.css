@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#N
+{
+	margin: 100;
+	width: 30px;
+  	height: 30px;
+  	background: #fff;
+  	transition: all 1s;
+  	transition-timing-function: ease-out;
+  	opacity:0.2;
+}
+
+#N:hover
+{
+	transform: scale(0.8);
+	opacity:1;
+}
